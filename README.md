@@ -1,98 +1,102 @@
-<div id="top">
+# Dating App
 
-<!-- HEADER STYLE: CLASSIC -->
-<div align="center">
+A Flask web app that recommends dating matches using a content-based recommender (location + shared interests) with a small collaborative boost from other users' likes.
 
+Users register, build a profile, and swipe through recommended profiles one at a time. A like from both sides creates a match, and matches appear on the Friends page. The UI is in Romanian.
 
-# DATING_APP
+## Features
 
-<em>Find your perfect match, ignite meaningful connections.</em>
+- **Registration and login.** Passwords are stored as salted scrypt hashes (`werkzeug.security`), never in plain text.
+- **Profile creation.** Users upload a photo and enter age, height, interests, location and match preferences (gender, age range).
+- **Recommendations.** Each user gets a ranked feed of profiles they haven't seen yet, filtered by their preferences.
+- **Like / dislike.** Each swipe is saved to an interaction matrix, so profiles a user has already rated don't come back.
+- **Matches.** Mutual likes are listed on the Friends page.
+- **Profile page.** Users can view and edit their own details.
 
-<!-- BADGES -->
-<img src="https://img.shields.io/github/last-commit/mihaimiron1/Dating_app?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/mihaimiron1/Dating_app?style=flat&color=0080ff" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/mihaimiron1/Dating_app?style=flat&color=0080ff" alt="repo-language-count">
+## How recommendations work
 
-<em>Built with the tools and technologies:</em>
+The logic lives in [`backend/main.py`](backend/main.py):
 
-<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
-<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+1. **Filter.** Keep only candidates whose gender and age fit the current user's preferences, and drop anyone the user has already liked or disliked.
+2. **Build feature vectors.**
+   - *Location.* The city is geocoded to latitude/longitude with the OpenCage API, then turned into a 3D unit vector (x, y, z) on a sphere, so nearby cities end up with similar vectors.
+   - *Interests.* Interests are one-hot encoded with `MultiLabelBinarizer`.
+3. **Score.** The features are standardized (`StandardScaler`) and compared with cosine similarity.
+4. **Collaborative boost.** Profiles that a similar user has liked get a small score bonus (+0.07).
+5. **Record the swipe.** A like is stored as `1` and a dislike as `0.5` in `interact.csv`. When two users have both stored `1` for each other, they are a match.
 
-</div>
-<br>
+## Tech stack
 
----
+- **Backend:** Python, Flask
+- **Data and ML:** pandas, NumPy, scikit-learn
+- **Geocoding:** OpenCage Geocoding API
+- **Frontend:** Jinja2 templates, HTML, CSS, vanilla JavaScript
+- **Storage:** CSV and JSON files (no database)
 
-## Table of Contents
+## Project structure
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Testing](#testing)
+```
+├── app.py                  # Flask routes (auth, profile, recommendations, swipes)
+├── backend/main.py         # Data loading, similarity and recommendation logic
+├── APA_PR/
+│   ├── dating_data.csv     # Raw user profiles
+│   ├── procesed_data.csv   # Processed features (one-hot interests, location vectors)
+│   └── interact.csv        # User × user interaction matrix (likes/dislikes)
+├── login_users.json        # Accounts (email, name, password hash)
+├── templates/              # Jinja2 pages
+├── static/                 # CSS and images
+└── test.ipynb              # Exploration notebook used while building the data pipeline
+```
 
----
-
-## Overview
-
-**Dating_app** is a comprehensive toolkit designed to simplify the development of dating applications, enabling developers to focus on creating engaging user experiences and efficient data management.
-
-**Why Dating_app?**
-
-This project aims to streamline user interactions and enhance data analysis within dating platforms. The core features include:
-
-- 💻 **Dynamic Code Execution:** Quickly test and validate code snippets to boost productivity.
-- 📊 **Data Analysis with Jupyter Notebook:** Effortlessly ingest and explore user data for insightful analysis.
-- 🔒 **User Authentication Management:** Securely manage user credentials, simplifying the login process.
-- 💡 **Personalized Recommendations:** Leverage data-driven algorithms to suggest matches based on user preferences.
-- 🎨 **Responsive User Interface:** Enjoy a visually appealing and user-friendly experience across various templates.
-- 🔄 **Seamless User Interaction:** Enhance engagement with dynamic content updates and intuitive navigation.
-
----
-
-## Getting Started
+## Getting started
 
 ### Prerequisites
 
-This project requires the following dependencies:
-
-- **Programming Language:** HTML
+- Python 3.11+
+- An [OpenCage](https://opencagedata.com/) API key. The free tier is enough, and you only need it to **register new users**; logging in and browsing with the demo accounts works without it.
 
 ### Installation
 
-Build Dating_app from the source and intsall dependencies:
+```sh
+git clone https://github.com/mihaimiron1/Dating_app
+cd Dating_app
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
 
-1. **Clone the repository:**
+### Configuration
 
-    ```sh
-    ❯ git clone https://github.com/mihaimiron1/Dating_app
-    ```
+Both settings are read from environment variables:
 
-2. **Navigate to the project directory:**
+| Variable           | Required                 | Purpose                                                        |
+|--------------------|--------------------------|----------------------------------------------------------------|
+| `SECRET_KEY`       | Recommended              | Flask session key. If unset, a random one is generated at startup, so sessions reset on every restart. |
+| `OPENCAGE_API_KEY` | For registering new users | Geocodes the city entered on the profile form.                 |
 
-    ```sh
-    ❯ cd Dating_app
-    ```
+```sh
+export SECRET_KEY="change-me"
+export OPENCAGE_API_KEY="your-key"
+# PowerShell: $env:SECRET_KEY="change-me"; $env:OPENCAGE_API_KEY="your-key"
+```
 
-3. **Install the dependencies:**
+### Run
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+```sh
+python app.py
+```
 
-### Usage
+Then open http://127.0.0.1:5000.
 
-Run the project with:
+### Demo account
 
-echo 'INSERT-RUN-COMMAND-HERE'
+The repo ships with 70 synthetic users. To log in as one of them:
 
-### Testing
+- **Email:** `john.doe25@gmail.com`
+- **Password:** `A1b2C3d4`
 
-Dating_app uses the {__test_framework__} test framework. Run the test suite with:
+## Limitations and next steps
 
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
-
-<div align="left"><a href="#top">⬆ Return</a></div>
-
----
+- Data is stored in CSV/JSON files, which is fine for a demo but not safe for concurrent writes. The next step would be SQLite or PostgreSQL with an ORM.
+- Similarity is recomputed on every request. It could be cached, or updated incrementally when a profile changes.
+- There are no automated tests yet.

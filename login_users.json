@@ -5,490 +5,490 @@
             "Email": "john.doe25@gmail.com",
             "Nume": "John",
             "Prenume": "Doe",
-            "Parola": "A1b2C3d4"
+            "Parola_Hash": "scrypt:32768:8:1$94CnsOCmsAmfDZhQ$e207470bd9d2aee5a509362523cba43af1d037406f5fe89fa6250fbba6f776e541a9412f81942b178cb852781f9de4bccec79b38605db689776c4929c5a57f8f"
         },
         {
             "ID": 2,
             "Email": "emma.jones22@gmail.com",
             "Nume": "Emma",
             "Prenume": "Jones",
-            "Parola": "P4q5R6s7"
+            "Parola_Hash": "scrypt:32768:8:1$1Vs9Gs5SddqmpsRm$0d589f10cd5a3fcde65e44828cb4b53286cf4f8cfd56aff0a37bb6d5925a5a0a535118f1ad1bae207294062da659e820cce0508f55f369c71387f6b26a311613"
         },
         {
             "ID": 3,
             "Email": "sophia.wilson30@gmail.com",
             "Nume": "Sophia",
             "Prenume": "Wilson",
-            "Parola": "X7y8Z9a1"
+            "Parola_Hash": "scrypt:32768:8:1$QMu1cF6B3pZqZ68q$94a46f595a1b047cc110f70b263f53e8d33f5b1eb5faedac807ca7d218cfc4fc3179db91b2dd6a2789bdbeda38e1614ed0268d80550485ed72f1ae4cb436a49f"
         },
         {
             "ID": 4,
             "Email": "james.smith28@gmail.com",
             "Nume": "James",
             "Prenume": "Smith",
-            "Parola": "B1c2D3e4"
+            "Parola_Hash": "scrypt:32768:8:1$6eaYnURayTQJ8mIS$d11081148b1f0824bb86a673221280f4faf57f5c9159b1bb708c8a8ca62d728d002f1dcfeaf4d9c388d03f473ea33cf6b3c202cfa99df018658765318310446f"
         },
         {
             "ID": 5,
             "Email": "mia.brown24@gmail.com",
             "Nume": "Mia",
             "Prenume": "Brown",
-            "Parola": "T6u7V8w9"
+            "Parola_Hash": "scrypt:32768:8:1$RKXlcSETKerdfrEW$a09f7b80300f9a41b701c313b4d0f47dbb82dc9e9ccf16a528bc163de96dcaedf09818dd1234cf77f14cc9c6ef143339090b9c610a3554194745b10e4d71b5cc"
         },
         {
             "ID": 6,
             "Email": "liam.miller27@gmail.com",
             "Nume": "Liam",
             "Prenume": "Miller",
-            "Parola": "G1h2I3j4"
+            "Parola_Hash": "scrypt:32768:8:1$UFZ4LhiHsFu5B5bi$0e562e28da2bd74f3fbed81f0f008b49fa3bdcfc25a7cdb12be2b29929eec7b1cae8074eac5f28b03557779a8e581365299381a8e207b1f849c260d069371fe4"
         },
         {
             "ID": 7,
             "Email": "olivia.taylor21@gmail.com",
             "Nume": "Olivia",
             "Prenume": "Taylor",
-            "Parola": "F4g5H6i7"
+            "Parola_Hash": "scrypt:32768:8:1$shWLlXScS0RxpiM1$314ab0243b393678e8d63a7063a431e367a9d321ffc5d1ebc174b14e0b34a325a342bce6e69698c309c7f5cfac042752a42cdead1f8a9e249d292d398519565b"
         },
         {
             "ID": 8,
             "Email": "noah.davis26@gmail.com",
             "Nume": "Noah",
             "Prenume": "Davis",
-            "Parola": "U1v2W3x4"
+            "Parola_Hash": "scrypt:32768:8:1$FSrS4qqCCvnXzTHr$6b60178a02ee71031072a7606da3b00065c157c5cecf44e5026ef97e6470802783a2c49c2c97b4f7db1e4e3d7b0f9f9601f175f8811a847887134ee6ea050978"
         },
         {
             "ID": 9,
             "Email": "ava.anderson29@gmail.com",
             "Nume": "Ava",
             "Prenume": "Anderson",
-            "Parola": "L8m9N0o1"
+            "Parola_Hash": "scrypt:32768:8:1$wfgQheMRzCPquTYY$ef8f8c17ba96556aa303e69453b6fd912c03a19779ad79faf7136e8b3b688f5a0c273e2e2b63e53df4f2ad99e4f4bb8ff094539a16ad4c7f5a15a7f288f13067"
         },
         {
             "ID": 10,
             "Email": "william.johnson24@gmail.com",
             "Nume": "William",
             "Prenume": "Johnson",
-            "Parola": "K1l2M3n4"
+            "Parola_Hash": "scrypt:32768:8:1$00juSDlIoZ17t1U0$f25ce62667643e74501b5276a9c323b99c19a1e6fe929b51163cc63ed6189fb1280e59aa82231b8254b68a604edbeec774f0bf3892ab7df9a322d7789a332600"
         },
         {
             "ID": 11,
             "Email": "sophia.thomas23@gmail.com",
             "Nume": "Sophia",
             "Prenume": "Thomas",
-            "Parola": "Q4r5S6t7"
+            "Parola_Hash": "scrypt:32768:8:1$VsbPKMBaoT1UZ5nc$f222ef9ade2d11b7e2072cae6567007f4928150313f67ce69513e6b543c035b98f3ee08be9aa92980a5fc296caec185afcf2a8e0636ead44bace9e74196c71c9"
         },
         {
             "ID": 12,
             "Email": "jack.moore31@gmail.com",
             "Nume": "Jack",
             "Prenume": "Moore",
-            "Parola": "V7w8X9y1"
+            "Parola_Hash": "scrypt:32768:8:1$kVxT9oh5WyQblglJ$61d69704b4313a699dec2d447ed6a8d1b3e8f6d3f0abc5402ae1b3bd39e04f6cfb47f0a3313088e0a20048004b6e16e56795d1f2c5a4c26ea292036bde1ff34f"
         },
         {
             "ID": 13,
             "Email": "isabella.jackson27@gmail.com",
             "Nume": "Isabella",
             "Prenume": "Jackson",
-            "Parola": "P1q2R3s4"
+            "Parola_Hash": "scrypt:32768:8:1$2KrTaHN2qsaFWW1M$163fca97a01261bdf62db1c83c85ee05b094549492265cfe584af3c6f4b6febf4eb6ece269030848c2d2034daf864a5a316b345fe61b2a780d508ff268a16729"
         },
         {
             "ID": 14,
             "Email": "lucas.harris22@gmail.com",
             "Nume": "Lucas",
             "Prenume": "Harris",
-            "Parola": "T5u6V7w8"
+            "Parola_Hash": "scrypt:32768:8:1$uUMSuphSPWzCLsCi$fa02bff4ee1f0a155327fbeec70c67fbed42c193e2145c2bec2e9164d915ffa070eec5963d64ff0d9a071252e439ecaf693d0f0732455146fea7cd83e4d13196"
         },
         {
             "ID": 15,
             "Email": "mia.clark30@gmail.com",
             "Nume": "Mia",
             "Prenume": "Clark",
-            "Parola": "Z1a2B3c4"
+            "Parola_Hash": "scrypt:32768:8:1$lAnJv3UCVHnWc2as$6e28ea3c2c0d0bae3ab2a8c80ee8732520b17776b1a25a1bb7eef938714940335058584079f8bbe192a7798ff4028bccb80d059c76370a419e12da77fa28dfee"
         },
         {
             "ID": 16,
             "Email": "benjamin.wright29@gmail.com",
             "Nume": "Benjamin",
             "Prenume": "Wright",
-            "Parola": "M6n7O8p9"
+            "Parola_Hash": "scrypt:32768:8:1$pO8UTP1JJn4iPwaH$5204c099398f6a5f28227ded83a7c226668623a464c929f643959269b38eda371fb6ce47fcd32206a13534ad110182f2828bd67046039320a52fa0bb25b6355c"
         },
         {
             "ID": 17,
             "Email": "amelia.white26@gmail.com",
             "Nume": "Amelia",
             "Prenume": "White",
-            "Parola": "C4d5E6f7"
+            "Parola_Hash": "scrypt:32768:8:1$5PciSsfckhRscUmf$be3f9e64bae6f44859f5a7864b8a2c4d77324d2a756d43201829603894c7792a78228e8a659b2b76547fc533ae9a71c58e3eb9e72ce7c39dcf810c87ce10ce6c"
         },
         {
             "ID": 18,
             "Email": "elijah.hall23@gmail.com",
             "Nume": "Elijah",
             "Prenume": "Hall",
-            "Parola": "H1i2J3k4"
+            "Parola_Hash": "scrypt:32768:8:1$VGHVO77rhfMTL7l5$c40d3ad796f296fc78c1c9096376cc273fb502edd41c9c0a49dc55f327a5b2286afcc8107b4c47465e1d87719c716412431f13b83c69ee0c6688a40d9912041a"
         },
         {
             "ID": 19,
             "Email": "emma.young25@gmail.com",
             "Nume": "Emma",
             "Prenume": "Young",
-            "Parola": "L5m6N7o8"
+            "Parola_Hash": "scrypt:32768:8:1$QyKG9P5DPnJFrcdZ$66c7a437d5d60c6169df179fc7aea15ef25665b4cf132295d3e88c880c97944b13dadc49d741cf5ee34c0bcb7381de1afa8d68226b52c633f6f9d30cb00f29de"
         },
         {
             "ID": 20,
             "Email": "oliver.king28@gmail.com",
             "Nume": "Oliver",
             "Prenume": "King",
-            "Parola": "F2g3H4i5"
+            "Parola_Hash": "scrypt:32768:8:1$bvPevS0zRqGmuY6G$5664fc4bf6349eef303fcc9c54a73a63f7a92a604f8af5c8c25a3bc4d58e9f0d8043455a7ae2dd848ab26b48c0e9450f842f23b1860520ed735ef39907ca1f70"
         },
         {
             "ID": 21,
             "Email": "ava.baker22@gmail.com",
             "Nume": "Ava",
             "Prenume": "Baker",
-            "Parola": "G5h6I7j8"
+            "Parola_Hash": "scrypt:32768:8:1$iiJCpcFwGpx4f67s$20e9d8ff23fa28335e0188de1b55361ed13e06236fbeccba4de00104d3b73a46c659a495b21bbc7f04a98e378884cf4fed7eb871933085d6592f677f49f9cd94"
         },
         {
             "ID": 22,
             "Email": "ethan.morris30@gmail.com",
             "Nume": "Ethan",
             "Prenume": "Morris",
-            "Parola": "H2i3J4k5"
+            "Parola_Hash": "scrypt:32768:8:1$TyZJsrmqbKUJs538$f67e11a704b12c0c38d04147f3a08afd44bfed4ea385ec30eb3582dc87e05aa7cd038dff4abb04b4bc2486657d82bc9bb6b17e6893b10f0f9b2961bd3a4cf289"
         },
         {
             "ID": 23,
             "Email": "mia.jenkins24@gmail.com",
             "Nume": "Mia",
             "Prenume": "Jenkins",
-            "Parola": "M8n9O1p2"
+            "Parola_Hash": "scrypt:32768:8:1$diThHlKCZeZVMzrI$c4cc61970c9d5f90f73bc653bf26fb7f2e05fc1d0e57ad276720b38b7ca51bd88664dc8762567ee74ac5a8fd3b2796b36a0345b10183468056f3521202ad0070"
         },
         {
             "ID": 24,
             "Email": "james.patterson28@gmail.com",
             "Nume": "James",
             "Prenume": "Patterson",
-            "Parola": "N3o4P5q6"
+            "Parola_Hash": "scrypt:32768:8:1$xh1RZ9GN2YDs0hOg$6935eccfa21913034879cceb13fd791dea808d7d988715cba1bb2a9a5867f5f1c1faa6239a8e1828b1da4380a6f95c1ab61bc84555263dce5c07564002e7bf83"
         },
         {
             "ID": 25,
             "Email": "sophia.evans29@gmail.com",
             "Nume": "Sophia",
             "Prenume": "Evans",
-            "Parola": "O4p5Q6r7"
+            "Parola_Hash": "scrypt:32768:8:1$SvaIz5MuepvB22u2$1c5b4ca8cb053c12898362c8ec139beacea207143b71b140b7fec1a2ce5d0db8c8b3e1d6f21f5e09bd6bc0558fa4a60ad3946f4ce0be91e7e2db76098b14ab68"
         },
         {
             "ID": 26,
             "Email": "liam.bell25@gmail.com",
             "Nume": "Liam",
             "Prenume": "Bell",
-            "Parola": "P7q8R9s1"
+            "Parola_Hash": "scrypt:32768:8:1$TgFoOZF4o2Yhj18T$06fc7911533102657cc48b37eded0f7e08f0b7e9d344f19d4d532789b104e0144a47594e4ed6a79e2406281d4771b8871a554b11ca1e12c9cc4fe621fe2f4889"
         },
         {
             "ID": 27,
             "Email": "emma.morgan31@gmail.com",
             "Nume": "Emma",
             "Prenume": "Morgan",
-            "Parola": "Q5r6S7t8"
+            "Parola_Hash": "scrypt:32768:8:1$ZCW0rzPB8hQPiLxx$daae5b4138dff0ac317c821d751e1dbdddc326b86fc57eb7e416b2e1f38b99c248e0b915dd0793ac0f263655fb4ec829ba08c0806bfa4b0f6d807bca37fa0dcf"
         },
         {
             "ID": 28,
             "Email": "noah.green27@gmail.com",
             "Nume": "Noah",
             "Prenume": "Green",
-            "Parola": "R4s5T6u7"
+            "Parola_Hash": "scrypt:32768:8:1$7WmK4UbIon4VuUZG$8a646c158ca1a420a60a2277cd9ab3d4bcd3a977350dafc9357004ea42bb68f893ab6ba927377d86174d358fc0d413c0ee9cfa57b70d9eaf4ff92b035d598940"
         },
         {
             "ID": 29,
             "Email": "isabella.edwards26@gmail.com",
             "Nume": "Isabella",
             "Prenume": "Edwards",
-            "Parola": "S1t2U3v4"
+            "Parola_Hash": "scrypt:32768:8:1$LQqaPdeoIP4jpVaW$38f4ef452f4fde0ebe0cd7e654eb36562862fe6aff75762940c7cf897d348ba14f56751fa576e261ebcedb59d2bc492f163ab5f199ac10478ad9c6b8b6f7c53d"
         },
         {
             "ID": 30,
             "Email": "lucas.ward24@gmail.com",
             "Nume": "Lucas",
             "Prenume": "Ward",
-            "Parola": "T7u8V9w1"
+            "Parola_Hash": "scrypt:32768:8:1$MkYD2ACK9YkAAset$24bf4e978cb86801545c5f3aa916d30520294270242c32eca38c0697976154fdc93ea31179e71febd93457b976ff8a95794884bccfbd2935797448f7164a7049"
         },
         {
             "ID": 31,
             "Email": "amelia.hughes29@gmail.com",
             "Nume": "Amelia",
             "Prenume": "Hughes",
-            "Parola": "U2v3W4x5"
+            "Parola_Hash": "scrypt:32768:8:1$bNJriwX7TVhC1Rpt$c2c0bedad4f468514258823909845d0afa6dfe4c19a47eea97f2b97e4f38ac96737c8426f8dfc694df668d212e6e5f161702a8936c0f8437fb1f661177603d97"
         },
         {
             "ID": 32,
             "Email": "elijah.bennett30@gmail.com",
             "Nume": "Elijah",
             "Prenume": "Bennett",
-            "Parola": "V6w7X8y9"
+            "Parola_Hash": "scrypt:32768:8:1$cUlmt1yWgk8R9wZk$ca4e16d61541029e4f68bc71f077434894d12a2a71c5a282c41094aa5cb288bd97f9e96587458c852c4ddd5d8696caf6baab3f3f5d4c16e4ec160b12360c0444"
         },
         {
             "ID": 33,
             "Email": "mia.howard25@gmail.com",
             "Nume": "Mia",
             "Prenume": "Howard",
-            "Parola": "W1x2Y3z4"
+            "Parola_Hash": "scrypt:32768:8:1$x2vBvTDcmn9QGKfy$d9469f3c9b4c72aac87fbc098e01d7ac00ef8d2c9b4ecaa847b87738fc8a2431f6b30e6c9663083aaca9821fa7603524a13be2b86c12ec572bab6063db587974"
         },
         {
             "ID": 34,
             "Email": "ethan.carter28@gmail.com",
             "Nume": "Ethan",
             "Prenume": "Carter",
-            "Parola": "X5y6Z7a8"
+            "Parola_Hash": "scrypt:32768:8:1$eL6nqyhrT8p0RlK3$8ed7e9fafda8e919fd4b2609eb0fce60fb834e0193b6bd078d32c9d326b40cdab5db3ee584c999109a3061a00755314843759af8a8427abdb847af071b9b795d"
         },
         {
             "ID": 35,
             "Email": "sophia.phillips23@gmail.com",
             "Nume": "Sophia",
             "Prenume": "Phillips",
-            "Parola": "Y3z4A5b6"
+            "Parola_Hash": "scrypt:32768:8:1$YgvcFyLOq4LOp21V$fda244a0942e8909f541ed700d9e99c5b4394b009528a76603936199de9e395c07828d6c9934e5240a88a38992896a127a3c9d4e1d1ac6ede8a214d649d43aa4"
         },
         {
             "ID": 36,
             "Email": "liam.mitchell30@gmail.com",
             "Nume": "Liam",
             "Prenume": "Mitchell",
-            "Parola": "Z9a1B2c3"
+            "Parola_Hash": "scrypt:32768:8:1$FSoM5nHaqCJUE5a6$548111af8bb6b016d853185f09ea3b16f26272ccdbe543322dbea41b5437be056d787f0f3614b51cddf45ff5c09131f92200975f96d4683ca7712d31b88cee78"
         },
         {
             "ID": 37,
             "Email": "emma.campbell26@gmail.com",
             "Nume": "Emma",
             "Prenume": "Campbell",
-            "Parola": "A6b7C8d9"
+            "Parola_Hash": "scrypt:32768:8:1$6fO3e7AlQChAK5TN$2734a737178a564f9915709f63898840df90e841754cd8799492d75f546d7928098c75104c191f1dcfe816c5a6c7ccdf13a311586ffe7badda2b61952a6273b1"
         },
         {
             "ID": 38,
             "Email": "noah.parker29@gmail.com",
             "Nume": "Noah",
             "Prenume": "Parker",
-            "Parola": "B4c5D6e7"
+            "Parola_Hash": "scrypt:32768:8:1$TEHKuuEamWWN9GVA$d0ff644f4340c8a8c981028eb0cfc79fcdb3464aee3c4e0d20aedf5532756089d6c807c3cff8832f82efa2b5443f128213a1a5d7bf9c99085d00ad53b8ba8a35"
         },
         {
             "ID": 39,
             "Email": "isabella.bailey24@gmail.com",
             "Nume": "Isabella",
             "Prenume": "Bailey",
-            "Parola": "C7d8E9f1"
+            "Parola_Hash": "scrypt:32768:8:1$yPnnQELjWnsslOyZ$3396b57fa865b81815f5224def815d56b1c6e92f663aab513dd6f9e2434abaef138ae5712f923869f06e9f1c3a39388e9dd8a41ee31fc5cf3b44ca5b5596fe1e"
         },
         {
             "ID": 40,
             "Email": "lucas.patterson22@gmail.com",
             "Nume": "Lucas",
             "Prenume": "Patterson",
-            "Parola": "D2e3F4g5"
+            "Parola_Hash": "scrypt:32768:8:1$IZ5WCUYUGmzGjaTY$48af0318ba0972121e35fadfc441e6f861a19c44cf9492ffa27173f2d0aac5f074a698d3c2acfbf806ace32482092637d7fb088c6f9ebaba473e3bf8ab6942eb"
         },
         {
             "ID": 41,
             "Email": "amelia.perry27@gmail.com",
             "Nume": "Amelia",
             "Prenume": "Perry",
-            "Parola": "E7f8G9h1"
+            "Parola_Hash": "scrypt:32768:8:1$4SwIvWYPBMuBaZ0Q$4a8cd4b7d329b6a4703a3e32985a8e306977466779fa379848215cf1a800cc95a545a49276a6b1e7403c1d937d803b18b8b01a05ea8ae32d42f69c3b7993a754"
         },
         {
             "ID": 42,
             "Email": "ethan.reed26@gmail.com",
             "Nume": "Ethan",
             "Prenume": "Reed",
-            "Parola": "F4g5H6i7"
+            "Parola_Hash": "scrypt:32768:8:1$FulRjOOpNuvX4nqG$559771ac4526d481c72f60b79e1b381affadeac4a02d400cff3eb4496f8390b0e37d1a5e62b8822e073a96947a689a3275de061ded341afcfd36d943f70f8674"
         },
         {
             "ID": 43,
             "Email": "mia.butler30@gmail.com",
             "Nume": "Mia",
             "Prenume": "Butler",
-            "Parola": "G8h9I1j2"
+            "Parola_Hash": "scrypt:32768:8:1$GMuWsjolAbWXy7uM$d802938bf0c12387ae28af99288ff026cb83e994b3b768398d4fa4a1ca79e27628988371b595288b6b2e9a987e3de30a19f61e9aff93891b35badf710928984c"
         },
         {
             "ID": 44,
             "Email": "noah.simmons28@gmail.com",
             "Nume": "Noah",
             "Prenume": "Simmons",
-            "Parola": "H6i7J8k9"
+            "Parola_Hash": "scrypt:32768:8:1$3P9wG8seajEBdwUh$341efa5f140b04160d0975a8dfe7fb12ecd0688c82652a4fc10d6c8187f5cdf20f36e05891780cb66a1384b4c0ed5f6eec3142df11f3141e6588877ec595f2fc"
         },
         {
             "ID": 45,
             "Email": "sophia.russell23@gmail.com",
             "Nume": "Sophia",
             "Prenume": "Russell",
-            "Parola": "I3j4K5l6"
+            "Parola_Hash": "scrypt:32768:8:1$pg0zj0Bxr9dxMMsT$141ce9def20eed124ce45800139956686a192f6a956bda745bd9103f3a4614ccc2736d561685c4d2159702b74953e51e85d1d9a5cc14360cac70c3ef3991a4f8"
         },
         {
             "ID": 46,
             "Email": "liam.hughes22@gmail.com",
             "Nume": "Liam",
             "Prenume": "Hughes",
-            "Parola": "J8k9L0m1"
+            "Parola_Hash": "scrypt:32768:8:1$rklg16GGa8V9mjIV$9a61382c1caaca8980511d45880fd4a3c4f43ed597d5468bb06a57c7c958a7e82b88e8532e4e147879be798e7e8cf1c5dd745d3016a0cc212f6ab3203241bffe"
         },
         {
             "ID": 47,
             "Email": "emma.green30@gmail.com",
             "Nume": "Emma",
             "Prenume": "Green",
-            "Parola": "K5l6M7n8"
+            "Parola_Hash": "scrypt:32768:8:1$VO0cQLtTnc4FLtl0$999aa64a50e120726c3f216bc72432f51cb4b6d48271ccaa0920d93fdadf4108366ed517ae3ebd94f480f9042b4cc9fb824890661bb6a02b303e124bc6afca76"
         },
         {
             "ID": 48,
             "Email": "olivia.james27@gmail.com",
             "Nume": "Olivia",
             "Prenume": "James",
-            "Parola": "L4m5N6o7"
+            "Parola_Hash": "scrypt:32768:8:1$643gzcuaPE3zO3K3$3959726d7e555ebe23dd2e9e6cb22221ad378bed287dee7785d885f796facf55c81af4726cfd54bc1c1d95e711b3d6ec07c479a18f46ab3458e7a026584e1310"
         },
         {
             "ID": 49,
             "Email": "benjamin.taylor31@gmail.com",
             "Nume": "Benjamin",
             "Prenume": "Taylor",
-            "Parola": "M2n3O4p5"
+            "Parola_Hash": "scrypt:32768:8:1$NCbAVyQ2m6L8d0aA$bc6210fd01972dfe8d6a1cf268cb4191f3d751886caeeed4b8f4977d902668117f0be0371957e6aa34f6c15dd25d252abfd9353e98c5b6749c5af5eee9bf646d"
         },
         {
             "ID": 50,
             "Email": "mia.brown29@gmail.com",
             "Nume": "Mia",
             "Prenume": "Brown",
-            "Parola": "N6o7P8q9"
+            "Parola_Hash": "scrypt:32768:8:1$p4Gg8UMxKFNsin7S$75cd21e08136344ba574539043aef489d4847b7dff4458c6bdf8157952b0e5b9e408bb581e3e0ecd880cb222546649b5615d40452ba67075e25087b105a6f877"
         },
         {
             "ID": 51,
             "Email": "jack.davis23@gmail.com",
             "Nume": "Jack",
             "Prenume": "Davis",
-            "Parola": "O5p6Q7r8"
+            "Parola_Hash": "scrypt:32768:8:1$1zPRMipmdAxeLipe$140f0fcb6444367f87606416d218ae186618d4822976888489b74b2287e4933e9699839d393060a56c431a3bf0a05e018c901bb6c2d3cef8bfa09d15bdea1c3a"
         },
         {
             "ID": 52,
             "Email": "amelia.morgan28@gmail.com",
             "Nume": "Amelia",
             "Prenume": "Morgan",
-            "Parola": "P8q9R0s1"
+            "Parola_Hash": "scrypt:32768:8:1$bfGQquEKGnPi2IdK$d34eee5a070c58569a172a48ae922d2773cf7b49707b149314e09932f5c8bb0c7e2be3ff8164a9d316c94da710e4635d45060e4954571725ac6d452ad5310477"
         },
         {
             "ID": 53,
             "Email": "ethan.clark24@gmail.com",
             "Nume": "Ethan",
             "Prenume": "Clark",
-            "Parola": "Q6r7S8t9"
+            "Parola_Hash": "scrypt:32768:8:1$ZpPFOewbkf0fcBYR$c5617fa1d2fa09fa20b26f15cd53c17a06d916bad7b2cca9db6e48d7eb2d92d0da8a3afdfd3b989902613dde5272e7d8d29151184fa87cf326b492324fe6c0f1"
         },
         {
             "ID": 54,
             "Email": "isabella.reed25@gmail.com",
             "Nume": "Isabella",
             "Prenume": "Reed",
-            "Parola": "R1s2T3u4"
+            "Parola_Hash": "scrypt:32768:8:1$IFaTTJNLHynqdQ9G$0253e7ec7fa1c87df7d766a5b6d0947d066505e76ee8834018d8c529a4a36f6b30370a950c97a31a9faf345ceb7bc8a375374029825e33ffca916da9f59f30a2"
         },
         {
             "ID": 55,
             "Email": "lucas.phillips26@gmail.com",
             "Nume": "Lucas",
             "Prenume": "Phillips",
-            "Parola": "S4t5U6v7"
+            "Parola_Hash": "scrypt:32768:8:1$EJm6Q78kBHlX5CQU$f0573f84f01abe911e6eec871b9c8e9970f1cb94ca1188900c0091e723f0c88341666f5a75534b25c3107f230326c702b4eb164474549db8cd7a263455e96d49"
         },
         {
             "ID": 56,
             "Email": "mia.bennett27@gmail.com",
             "Nume": "Mia",
             "Prenume": "Bennett",
-            "Parola": "T9u0V1w2"
+            "Parola_Hash": "scrypt:32768:8:1$FRjwCrV4qRROArKw$e8830d79c7746ed5b275ad78ca169f6a5f51261a58ab1716f05c461646f54a55d266843ed849f39842a0828dcb38d5f7e4d307f436a51bad00312fc173625219"
         },
         {
             "ID": 57,
             "Email": "oliver.jenkins29@gmail.com",
             "Nume": "Oliver",
             "Prenume": "Jenkins",
-            "Parola": "U3v4W5x6"
+            "Parola_Hash": "scrypt:32768:8:1$F9D0jh8WrnVwHlE0$7d507c9d448ebf2a80798b6fc8dbd73b3eb40e8f111df63e2fc1d4d6c1962284e0bab6bcb9d69ec3894799b32dbccbe7a143761de7d112f0c68bb0b8a9987f1d"
         },
         {
             "ID": 58,
             "Email": "sophia.carter30@gmail.com",
             "Nume": "Sophia",
             "Prenume": "Carter",
-            "Parola": "V8w9X0y1"
+            "Parola_Hash": "scrypt:32768:8:1$J5JA7ruMLbLnozPj$0e537cafdd9f4255be0e01409f57735414782da781171debf528e85b7fa3ed5f6b81a7ca8b2b8860b96ed290cfe46cb4c4b8d12cd3c4c4e4e9832a5d877694ab"
         },
         {
             "ID": 59,
             "Email": "liam.evans31@gmail.com",
             "Nume": "Liam",
             "Prenume": "Evans",
-            "Parola": "W2x3Y4z5"
+            "Parola_Hash": "scrypt:32768:8:1$aLz2YCDwZ97fWsoL$b5d7a7a41c77b92a53132f7956e3058f848fe8542e966b00c14f4cb59745bf57160b1c44fa26588dd2c8f7504c7e68b5cd1ce7fc307fcac4d81bb0998dd870d6"
         },
         {
             "ID": 60,
             "Email": "amelia.parker22@gmail.com",
             "Nume": "Amelia",
             "Prenume": "Parker",
-            "Parola": "X6y7Z8a9"
+            "Parola_Hash": "scrypt:32768:8:1$en9gcxHqYGlKywLC$740ff6633d9f24c3267c1df6516e2b33f0fe9f1817c3718603ca62db3158b3cef1fb7c15c666c7f33175292b7355096d5bd95a08aeb92744adbb603f5e6f0ba7"
         },
         {
             "ID": 61,
             "Email": "jack.green23@gmail.com",
             "Nume": "Jack",
             "Prenume": "Green",
-            "Parola": "Y4z5A6b7"
+            "Parola_Hash": "scrypt:32768:8:1$quPZdZSJXzKl09U6$8973d786c8cda3c241d760897f383c283dbcbddda48cbbc97dfd6f602ec3f4f7eb8477f6291ff6cebb452fd629a995b216a5d8f55c4a6c536da84cadca873a86"
         },
         {
             "ID": 62,
             "Email": "emma.baker24@gmail.com",
             "Nume": "Emma",
             "Prenume": "Baker",
-            "Parola": "Z9a0B1c2"
+            "Parola_Hash": "scrypt:32768:8:1$0QT6EUOi0JMPlp4Z$4bdc1040f950de81ce467b6192500698d1634aba699b3a88e1d5f38ead9f14fb7bed60680d6b14bd385eb22755f1850ed93f645c2bdf48b35be6ab14ef43e5fd"
         },
         {
             "ID": 63,
             "Email": "noah.james25@gmail.com",
             "Nume": "Noah",
             "Prenume": "James",
-            "Parola": "A5b6C7d8"
+            "Parola_Hash": "scrypt:32768:8:1$eyOdSr1QPYGGl1N2$84db38435faccbb23ebe19d3fa13d9aab89615aab4dfdd8b41668b4e019b7910170e7d76d67256128b3ed30744179392ff8ea5b97f8bf85e923b9b7bc208aa7c"
         },
         {
             "ID": 64,
             "Email": "olivia.morgan26@gmail.com",
             "Nume": "Olivia",
             "Prenume": "Morgan",
-            "Parola": "B3c4D5e6"
+            "Parola_Hash": "scrypt:32768:8:1$DqQmQIS7rss7oRat$fe0df675eb1486b0d2cbefe0371dd2c14df1d5ac8286728e13c8f21de8e04745bd1fb15619cf5000e53220c2d5be5eac24ad6697e793d66f74de903abdf86602"
         },
         {
             "ID": 65,
             "Email": "liam.davis27@gmail.com",
             "Nume": "Liam",
             "Prenume": "Davis",
-            "Parola": "C7d8E9f1"
+            "Parola_Hash": "scrypt:32768:8:1$CniIuXpRHHQ038Uf$06d662741b4a26f742fcef11c36486721152da228de6cb9ca71ea465fe2639ac9ecf67315c4d9b7f824cbc883204f7aa8b76dd067eff743deeb37014365ed853"
         },
         {
             "ID": 66,
             "Email": "sophia.jones28@gmail.com",
             "Nume": "Sophia",
             "Prenume": "Jones",
-            "Parola": "D2e3F4g5"
+            "Parola_Hash": "scrypt:32768:8:1$S5nH87OWGxygVEm3$d9cf5b23a9620fa244f7cc42dd9b8e90d56a855868c4de7e8c85e8404cea55c760dacbd585dc078bfcdb61d742984ef9ed0f1cb88abb7d8b6c9caced2be4f7bb"
         },
         {
             "ID": 67,
             "Email": "amelia.taylor29@gmail.com",
             "Nume": "Amelia",
             "Prenume": "Taylor",
-            "Parola": "E5f6G7h8"
+            "Parola_Hash": "scrypt:32768:8:1$MP4KXX0fEuFwCTDx$b25e6c559e5389e06f484abe224febab208bdccbc68a5666ce3bd06b6323743175d1faee5298cf8fa773abae226afd7992fa790745c62b5855ed6792c8fc04dd"
         },
         {
             "ID": 68,
             "Email": "oliver.wilson30@gmail.com",
             "Nume": "Oliver",
             "Prenume": "Wilson",
-            "Parola": "F9g0H1i2"
+            "Parola_Hash": "scrypt:32768:8:1$8LMI5N0SMdYYZxZ7$8043700329fa8326112f71bd0ec4d93fd50bc2b85bf5b9d8ac0712bb2ce54ade52a6027e218beed3108816a304005b99fd6fcd08800400a055b943e2f967ce68"
         },
         {
             "ID": 69,
             "Email": "lucas.clark31@gmail.com",
             "Nume": "Lucas",
             "Prenume": "Clark",
-            "Parola": "G3h4I5j6"
+            "Parola_Hash": "scrypt:32768:8:1$lsPJCf8m9NSkQOTL$fae977aa3be1bb1050ba50af5079e86bd862889701346b317dbe8126cc24b3f946c2ec7deae7000011a97603fc2192de7c30ee9f9cd1871955f3a5d355eba2e9"
         },
         {
             "ID": 70,
             "Email": "mia.bennett22@gmail.com",
             "Nume": "Mia",
             "Prenume": "Bennett",
-            "Parola": "H7i8J9k0"
+            "Parola_Hash": "scrypt:32768:8:1$1AM8iIS1acEbwVVc$a613191814213dc9bea0094c7ff34924cba8729b7bc5489fa0224cf526a6b185003e604e5d749adf3a00e35b224f853e6687aa7a4f1f51d5c0dc26c0ac9b6a71"
         }
     ]
 }

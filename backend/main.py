@@ -2,11 +2,14 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
 import numpy as np
+import os
 from sklearn.preprocessing import MultiLabelBinarizer
 from opencage.geocoder import OpenCageGeocode
 
 def get_coordinates(location):
-    api_key = '05b607c2126b4f12a76b0f84acc01091'
+    api_key = os.environ.get('OPENCAGE_API_KEY')
+    if not api_key:
+        raise RuntimeError("Setează variabila de mediu OPENCAGE_API_KEY pentru geocodare.")
     geocoder = OpenCageGeocode(api_key)
     try:
         result = geocoder.geocode(location)
@@ -33,9 +36,9 @@ def get_vector3(location):
 
 # Încărcăm matricea interacțiunilor și datele procesate
 def load_data():
-    interactions_matrix = pd.read_csv('APA_PR\interact.csv', index_col=0)
-    data = pd.read_csv('APA_PR\procesed_data.csv')
-    data_orig = pd.read_csv('APA_PR\dating_data.csv')
+    interactions_matrix = pd.read_csv('APA_PR/interact.csv', index_col=0)
+    data = pd.read_csv('APA_PR/procesed_data.csv')
+    data_orig = pd.read_csv('APA_PR/dating_data.csv')
     mlb = MultiLabelBinarizer()
     interests_matrix = mlb.fit_transform(data_orig['Interests'].str.split())  # Split pe spațiu pentru a crea lista de interese
     interests_df = pd.DataFrame(interests_matrix, columns=mlb.classes_)
@@ -56,7 +59,7 @@ def extract_interests(row, interests_columns):
     return ", ".join(interests)  # Interesele vor fi returnate sub formă de string, separate prin virgulă
 
 def find_interests(user_id):
-    df = pd.read_csv('APA_PR\procesed_data.csv')
+    df = pd.read_csv('APA_PR/procesed_data.csv')
 
     interests_columns = identify_interest_columns(df)
     df["Interests"] = df.apply(lambda row: extract_interests(row, interests_columns), axis=1)
@@ -117,7 +120,7 @@ def add_user_in_data(new_user):
     interactions_matrix[len(interactions_matrix.columns) + 1] = new_column
 
     # Salvează rezultatul înapoi într-un fișier CSV (opțional)
-    interactions_matrix.to_csv('APA_PR\interact.csv')
+    interactions_matrix.to_csv('APA_PR/interact.csv')
 
 
 
@@ -182,7 +185,7 @@ def recommend_users_by_id(user_id, data, similarity_matrix, interactions_matrix,
         like_pers_user = similarity_scores[filtered_data.index].argsort()[::-1][:1]
         
         #transformam in int
-        like_pers_user=int(like_pers_user)
+        like_pers_user=int(like_pers_user[0])
 
 
         #extragem persoanele la care userul a dat like
@@ -207,7 +210,7 @@ def recommend_users_by_id(user_id, data, similarity_matrix, interactions_matrix,
 # Funcția pentru interacțiuni cu utilizatorii recomandați
 def interact_with_recommended_users(user_id, recommended_user, interactions_matrix, interaction):
     interactions_matrix.iloc[user_id-1, recommended_user-1] = interaction
-    interactions_matrix.to_csv('APA_PR\interact.csv')
+    interactions_matrix.to_csv('APA_PR/interact.csv')
  
 # Funcția pentru a vedea prietenii
 def give_friends(user_id, interactions_matrix):

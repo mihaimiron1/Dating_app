@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
+from werkzeug.security import generate_password_hash, check_password_hash
 import json
+import os
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
@@ -8,7 +10,8 @@ from backend.main import load_data, recommend_users_by_id, interact_with_recomme
 from sklearn.preprocessing import MultiLabelBinarizer
 
 app = Flask(__name__)
-app.secret_key = '564521751a02c0e0e5f324d5a850a38e6ba1873a7a1e3027'
+# Cheia se setează prin variabila de mediu SECRET_KEY; fără ea se generează una temporară
+app.secret_key = os.environ.get('SECRET_KEY') or os.urandom(24)
 
 
 # Load the necessary data and similarity matrix globally
@@ -144,7 +147,7 @@ def register():
                 flash("Acest email este deja înregistrat!", 'error')
                 return redirect(url_for('register'))
         session['new_user_email'] = email
-        session['new_user_password'] = password
+        session['new_user_password_hash'] = generate_password_hash(password)
         
 
         return redirect(url_for('create_profile', user_id=len(users) + 1))
@@ -219,10 +222,10 @@ def create_profile(user_id):
             
             # Procesare date de login
             email = session.get('new_user_email')
-            password = session.get('new_user_password')
+            password_hash = session.get('new_user_password_hash')
             new_user = {
                 'Email': email,
-                'Parola': password,
+                'Parola_Hash': password_hash,
                 'Nume': last_name,
                 'Prenume': first_name,
                 'ID': id_user_new
@@ -257,7 +260,7 @@ def login():
         users = load_users()
         user_found = None
         for user in users:
-            if user['Email'] == email and user['Parola'] == password:
+            if user['Email'] == email and check_password_hash(user['Parola_Hash'], password):
                 user_found = user
                 break
         if user_found:
